@@ -1,6 +1,6 @@
-function myfunction(){ 
-document.getElementById("addToCart");
-    let addToCartButton = () => { 
-  window.open("Thanks!");  
-    }
-}
+document.addEventListener("DOMContentLoaded", function() {
+let Button = document.getElementById('addToCart');
+    Button.addEventListener('click', function() {
+        alert('Thanks!');
+});
+  });
